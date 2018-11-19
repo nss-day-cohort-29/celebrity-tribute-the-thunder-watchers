@@ -97,9 +97,79 @@ li a:hover {
 /* Jordan - Styling*/
 
 /* Matthew - Styling*/
-h1 {
-    font-size: 30px   /* Set classes to apply only to your page. */
+body {
+    background-color: rgb(54, 54, 235);   
 }
-li {
-    font-size: 20px;  /* Set classes to apply only to your page. */
+
+h1 {
+    color: white;
+    font-size: 70px;
+    border: solid 5px white;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    border: solid 5px white;
+    border-radius: 25px;
+    text-align: center; 
+    width: 50%;
+    margin: 0 auto;
+}
+
+.personal {
+    color: white;
+    font-size: 25px;
+}
+
+.marsh {
+    height: 500px;
+    border: solid 10px white;
+    border-radius: 50px; 
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.skrillex {
+    height: 200px;
+    width: 350px;
+    border: solid 5px white; 
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slushii {
+    height: 200px;
+    width: 350px;
+    border: solid 5px white; 
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ninja {
+    height: 200px;
+    width: 350px;
+    border: solid 5px white; 
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
 }
