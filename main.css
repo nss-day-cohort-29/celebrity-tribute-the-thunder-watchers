@@ -1,6 +1,105 @@
+/*
+*  The Thunder Watchers
+*  Grady, Jordan, Matthew, Zac
+*  November 19, 2018
+*/
+
+/* Zac - Styling */
+/************* index.html STYLING *************/
+.index {
+    background-color: #EDF1F4;
+    margin: 0;
+    padding: 0;
+}
+.index_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.header_image {
+    width: 100%;
+    height: 275px;
+}
+.body_container {
+    padding-left: 250px;
+}
+/************* NAV STYLING *************/
+.nav_container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BCC5C6;
+}
+.nav_items {
+    float: left;
+}
+/* Set color and style. */
+ .nav_items a {  
+    color: rgb(30, 30, 31);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color on hover. */
+li a:hover {
+    background-color: #72A9EF;
+}
+/* Add an "active" class to the current link. */
+.active {
+    background-color: #AFEDF9;
+}
+/************* FOOTER STYLING *************/
+.social {
+    background-color: #BCC5C6;
+    padding: 5px;
+}
+.social p {
+    font-weight: bold;
+}
+/* Style all font awesome icons. */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+/* Add a hover effect to social media links. */
+.fa:hover {
+    opacity: 0.7;
+}
+/**** Set a specific color for each brand icon. ****/
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+    background: rgb(196, 79, 79);
+    color: white;
+}
+/* SoundCloud */
+.fa-soundcloud {
+    background: #F49739;
+    color: white;
+}
+/* Grady - Styling*/
+
+/* Jordan - Styling*/
+
+/* Matthew - Styling*/
 h1 {
-    font-size: 30px
+    font-size: 30px   /* Set classes to apply only to your page. */
 }
 li {
-    font-size: 20px;
+    font-size: 20px;  /* Set classes to apply only to your page. */
 }
