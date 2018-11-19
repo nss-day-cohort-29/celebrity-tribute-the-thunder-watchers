@@ -8,6 +8,9 @@ h1 {
     border: solid 5px white;
     border-radius: 25px;
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    
 }
 
 h2 {
@@ -16,6 +19,8 @@ h2 {
     border: solid 5px white;
     border-radius: 25px;
     text-align: center; 
+    width: 50%;
+    margin: 0 auto;
 }
 
 .personal {
@@ -28,10 +33,10 @@ h2 {
     border: solid 10px white;
     border-radius: 50px; 
     display: block;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-
 }
 
 .skrillex {
