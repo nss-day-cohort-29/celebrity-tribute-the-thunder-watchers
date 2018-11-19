@@ -5,56 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="career.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>TEST</h1>
+        <img src="https://i.ytimg.com/vi/lcjFFtNEfh8/maxresdefault.jpg" class="header_image" alt="DJ Marshmello on stage">
     </header>
-
     <nav>
-        <ul>
-            <li><a href="/">Executive Summary</a></li>
-            <li><a href="career.html">Career</a></li>
-            <li><a href="#">Personal</a></li>
-            <li><a href="#">News Feed</a></li>
-        </ul>   
+        <ul class="nav_container">
+            <li class="nav_items"><a href="/" class="active">Executive Summary</a></li>
+            <li class="nav_items"><a href="career.html">Career</a></li>
+            <li class="nav_items"><a href="personal.html">Personal</a></li>
+            <li class="nav_items"><a href="news.html">News Feed</a></li>
+        </ul>
     </nav>
     <div class = "container">
-        <h2>Into Marshmello's Career</h2>
+        <h2 class = "main-header">Into Marshmello's Career</h2>
                     <!-- Short intro to the artist -->
         <div class = "intro">
-            <img src = "http://www.wallpapermaiden.com/wallpaper/22093/download/600x800/marshmello-music-producer.jpg" alt = "marshmello">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Eius rem nobis fugiat distinctio reiciendis ullam, quo debitis 
-                quia? Consequuntur nobis odit voluptatibus corrupti magnam, sunt
-                eos nemo velit praesentium iste? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. 
-                Eius rem nobis fugiat distinctio reiciendis ullam, quo debitis 
-                quia? Consequuntur nobis odit voluptatibus corrupti magnam, sunt
-                eos nemo velit praesentium iste? 
+            <img class = "main" src = "https://edm.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTU5NzIzMjYyNzA2NzIyMjcz/llplz-marshmello.jpg" alt = "marshmello">
+            <p class = "primary-info">
+                    Marshmello is the pseudonym of an American dance music producer and DJ whose
+                     real identity is a subject of speculation. He wears a bucket shaped Marshmallow
+                    helmet on his head to hide his face. He first burst into the electronic music scene 
+                    in 2015. In 2017, sufficient indications appeared on social media that identify him as 
+                    American DJ Chris Comstock but officially, Marshmello has neither confirmed nor denied 
+                    that he his Comstock. In November 2017, Forbes magazine published an article in which they 
+                    claimed Chris Comstock to be Marshmello based on an old interview with another DJ, royalty 
+                    earnings records and the common manager for Marshmello and Chris Comstock but there was no 
+                    official confirmation of the same from the management and the lawyer of Marshmello. Despite 
+                    speculation about his identity, Marshmello remains one of the most popular as well as acclaimed 
+                    DJs in the world today 
             </p>
          </div> <!--End of intro div-->
 
                      <!-- List of skills and talent  -->
-         <div class = "skills-and-talent">
+         <div class = "skills-and-talent col">
             <h2>Talents</h2>
             <ul class = "talents">
-                <li>Talent 1</li>
-                <li>Talent 2</li>
-                <li>Talent 3</li>
-                <li>Talent 4</li>
-                <li>Talent 5</li>
-                <li>Talent 6</li>
+                <li>Keeping his identity a secret</li>
+                <li>Making Bangers</li>
+                <li>Getting songs stuck in your head</li>
+                <li>Making people want to dance</li>
+                <li>Preforming</li>
+                <li>Collaborating</li>
+                <li>Light Shows</li>
+                <li>Dancing</li>
+                <li>DJ</li>
+                <li>Being an awesome brother</li>
             </ul>
         </div> <!--End of skills-and-talent div-->
 
                 <!-- list of published works -->
-        <div class = "published-works">
+        <div class = "published-works col">
             <h2>Published Works</h2>
             <ol>
-                <li>Silence - Khalid ft. Marshmello</li>
+                <li class = "preview">Silence - <a href = "https://www.youtube.com/watch?v=Tx1sqYc3qas" target = "_blank">Khalid ft. Marshmello</a></li>
                 <li>Wolves - Selena Gomez ft. Marshmello</li>
                 <li>Ritual - Marshmello</li>
                 <li>Alone - Marshmello</li>
@@ -66,18 +74,26 @@
                 <li>Find Me - Marshmello</li>
             </ol>
         </div> <!--End of published-works div-->
-
+        <div id = "cover">
+            <img  src = "https://www.billboard.com/files/styles/article_main_image/public/media/marshmello-alone-MV-2017-billboard-1548.jpg" alt ="Marshmello with a backpack looking sad">
+            <img src = "https://www.billboard.com/files/styles/article_main_image/public/media/marshmello-khalid-silence-2017-billboard-1548.jpg" alt ="Marshmello with Khalid">
+        </div>
         <!-- List of places the artist has lived -->
-        <div class = "residential-history">
+        <div class = "residential-history col">
             <h2>Where has Marshmello been</h2>
             <ul>
                 <li>Philedalphia, PA: May 19, 1992 - 2015</li>
-                <li>Los Angeles, CA: 2015 - Current</li> 
+                <li>Los Angeles, CA: 2015 - Current</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </ul>
         </div> <!--End of residential-history-->
 
         <!--Collaboration-->
-        <div class = "Collaboration">
+        <div class = "collaboration col">
             <h2>Collaborations</h2>
             <ul>
                 <li>Ookay</li>
@@ -93,11 +109,18 @@
         <div class = "awards">
             <h2>Awards</h2>
             <ul>
-                <li>MMVA For Fan Fav Single</li>
-                <li>MMVA For Best EDM/Dance Artist or Group</li>
-                <li>AMA For  Favorite Artist Electronic Dance Music</li>
-                <li>MTV Europe Music Award for Best Electronic DJ </li>
+                <li><b>MMVA</b> For Fan Fav Single</li>
+                <li><b>MMVA</b> For Best EDM/Dance Artist or Group</li>
+                <li><b>AMA</b>For  Favorite Artist Electronic Dance Music</li>
+                <li><b>MTV</b> Europe Music Award for Best Electronic DJ </li>
             </ul>
         </div> <!--End of awards div-->
     </div> <!--End of Container div-->
+    <footer class="social">
+        <p class = "more">Find Marshmellow online:</p>
+        <a href="https://twitter.com/marshmellomusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+        <a href="https://www.facebook.com/marshmellomusic/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/marshmellomusic/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://soundcloud.com/marshmellomusic" class="fa fa-soundcloud"></a>
+    </footer>
 </body>
