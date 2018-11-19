@@ -27,6 +27,7 @@
 /************* NAV STYLING *************/
 .nav_container {
     list-style-type: none;
+    margin-top: -4px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -93,7 +94,72 @@ li a:hover {
     color: white;
 }
 /* Grady - Styling*/
+img {
+    
+    display: block;
+    border-radius: 25px;
+}
+.gmr{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+}
 
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    align-content: space-around;
+}
+#bloop {
+    /* border: 1px solid blue; */
+    display: flex;
+    /* flex-direction: column; */
+}
+.container2 {
+    display: flex; /* or inline-flex */
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+
+#container3 {
+    position: relative;
+    width: 50%;
+  }
+#image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  #container:hover #overlay {
+    opacity: 1;
+  }
+  
+  #text {
+    color: rgb(53, 53, 73);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 /* Jordan - Styling*/
 
 /* Matthew - Styling*/
