@@ -28,6 +28,7 @@
 .nav_container {
     list-style-type: none;
     margin: 0;
+    margin-top: -4px;
     padding: 0;
     overflow: hidden;
     background-color: #BCC5C6;
@@ -103,10 +104,3 @@ h1 {
 li {
     font-size: 20px;  /* Set classes to apply only to your page. */
 }
-.nav_container {
-    list-style-type: none;
-    margin-top: -4px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #BCC5C6;
- }
