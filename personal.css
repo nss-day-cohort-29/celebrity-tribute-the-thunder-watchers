@@ -15,6 +15,7 @@ h2 {
     font-size: 30px;
     border: solid 5px white;
     border-radius: 25px;
+    text-align: center; 
 }
 
 .personal {
