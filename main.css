@@ -101,7 +101,7 @@ body {
     background-color: rgb(54, 54, 235);   
 }
 
-h1 {
+.header {
     color: white;
     font-size: 70px;
     border: solid 5px white;
@@ -112,7 +112,7 @@ h1 {
     
 }
 
-h2 {
+.header2 {
     color: white;
     font-size: 30px;
     border: solid 5px white;
