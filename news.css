@@ -1,14 +1,33 @@
 body {
     background-color: blanchedalmond;
 }
+img {
+    
+    display: block;
+    border-radius: 25px;
+}
+.gmr{
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
 .container {
     display: flex; /* or inline-flex */
     flex-direction: column;
     align-content: space-around;
 }
-
 #bloop {
+    /* border: 1px solid blue; */
     display: flex;
     /* flex-direction: column; */
 }
+.container2 {
+    display: flex; /* or inline-flex */
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-content: flex-end;
+}
+
 
