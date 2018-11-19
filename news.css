@@ -1,0 +1,14 @@
+body {
+    background-color: blanchedalmond;
+}
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#bloop {
+    display: flex;
+    /* flex-direction: column; */
+}
+
