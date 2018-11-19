@@ -1,0 +1,148 @@
+/* ==============================Jordan Rosas Styles==================================== */
+
+/* global Selector */
+
+*{
+    box-sizing: border-box;
+}
+
+/* Base Selectors */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:arial, sans-serif;
+    background:linear-gradient(132deg, #4dceeb, #e7b0f7,#7dfab1);
+    background-size:400% 400%;
+    animation:BackgroundRun 9s ease infinite;
+}
+@keyframes BackgroundRun{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+
+}
+.main{
+    width:100%;
+    border-radius:12%;
+    border:solid 3px black;
+    /* box-shadow:2px 3px 10px black; */
+}
+.primary-info{
+    font-size:20px;
+    padding:10px;
+    border:1px black solid;
+    border-radius:5%;
+    box-shadow:2px 3px 10px black;
+}
+
+
+/* Class Selectors */
+.container{
+    width:70%;
+    margin:auto;
+}
+.skills-and-talent{
+    text-align:center;
+    margin-bottom:50px;
+}
+.skills-and-talent > ul > li{
+    list-style-type: none;
+}
+.skills-and-talent > h2{
+    margin-left:44px;
+    border-bottom: 1px solid black;
+}
+.published-works{
+    text-align: center;
+}
+.published-works > h2{
+    border-bottom: 1px solid black;
+    margin-left:44px;
+}
+.col{
+    display:inline-block;
+    width:50%;
+    margin:-4px;
+}
+.residential-history,{
+    text-align:center;
+    padding:10px;
+}
+.residential-history > h2{
+    text-align: center;
+    margin-left:30px;
+    border-bottom: 1px solid black;
+}
+.residential-history > ul > li{
+    list-style-type: none;
+}
+.collaboration{
+    text-align: center;
+}
+.collaboration > h2{
+    margin-left:44px;
+    border-bottom: 1px solid black;
+}
+.main-header{
+    text-align: center;
+    text-shadow:2px 3px 10px white;
+    font-size:44px;
+}
+.preview{
+    text-decoration:none;
+    color:black;
+    transition:0.8s;
+}
+.preview:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+/* .pw-images > img{
+    width:50%;
+    height:50%;
+    margin:auto;
+}
+.pw-images .col{
+    display:inline-block;
+    width:auto;
+    margin:-4px;  
+}  */
+#cover {
+    display:flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top:100px;
+  }
+  
+  #cover > img {
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    border: 2px solid black;
+    height:50%;
+    width: 50%%;
+    margin: 1.66%; 
+  }
+
+.awards{
+    display:flex;
+    justify-content: center;
+}
+.awards > h2{
+    border-right:1px solid black;
+    padding:10px;
+}
+.awards > ul > li{
+    font-size: 16px;
+    list-style-type: none;
+}
+

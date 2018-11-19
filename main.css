@@ -27,7 +27,10 @@
 /************* NAV STYLING *************/
 .nav_container {
     list-style-type: none;
+<<<<<<< HEAD
     margin: 0;
+=======
+>>>>>>> master
     margin-top: -4px;
     padding: 0;
     overflow: hidden;
