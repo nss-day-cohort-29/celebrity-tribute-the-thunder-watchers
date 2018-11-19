@@ -1,3 +1,9 @@
+#Team ThunderWatchers:
+##Matthew Abeabe
+##Zac Crawford
+##Grady Robbins
+##Jordan Rosas-Team Lead
+
 # Nashville Software School Tribute Agency
 
 Welcome fans.
