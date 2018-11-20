@@ -5,62 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <title>Newsfeed</title>
+    <!-- Added the following link for the social media icons in the footer. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="news.css"> -->
+    <title>Marshmallow Newsfeed</title>
 </head>
-<body>
-    <nav>
-        <a href="/index.html">Executive Summary</a>
-        <a href="#">Career</a>
-        <a href="#">Personal</a>
-        <a href="#">News Feed</a>
-    </nav>
 
-    <h1>MARSHMALLOW!</h1>
-    <h3>latest news:</h3>
+
+<body class="index">
+        <header>
+                <img src="https://i.ytimg.com/vi/lcjFFtNEfh8/maxresdefault.jpg" class="header_image" alt="DJ Marshmello on stage">
+            </header>
+            <nav>
+              <ul class="nav_container">
+                <li class="nav_items"><a href="/" >Executive Summary</a></li>
+                <li class="nav_items"><a href="career.html">Career</a></li>
+                <li class="nav_items"><a href="personal.html">Personal</a></li>
+                <li class="nav_items"><a href="news.html" class="active">News Feed</a></li>
+              </ul>
+            </nav>
+          
+    <h1 class="gmr">Latest News:</h3>
     <br/>
-    <ul>
-        <li>
-            <img src="/newsitem1img.jpeg" alt="staypuft marshmallow man">
-            <a href="/newsitem1.html">Unmasking Marshmello: The Real Identity Of The $21 Million DJ</a>
-            <h5>date: Nov 7, 2018</h5>
+    
+    <ul class="container">
+        <li id="bloop" >
+            <img src="/newsitem1img.jpeg" alt="newsitem1 image">
+            <div class="container2">
+
+                <a href="/newsitem1.html" class="gmr">Unmasking Marshmello: The Real Identity Of The $21 Million DJ</a>
+                <ul >
+                    <li>date: Nov 7, 2018</li>
+                    <li>location: Philadelphia, PA</li>
+                    <li>likelihood rating, on a scale of 1-10 : 9</li>
+                    <li>type of event: interview</li>
+                    <li>collaborators: n/a</li>
+                    <li>where the event occured: Philadelphia</li>
+                </ul>
+            </div>
+        </li>
+        
+        <br/>
+        <li id="bloop">
+            <img src="/newsitem2img.jpeg" alt="newsitem2 image">
+            <div class="container2">
+            <a href="/newsitem2.html" class="gmr">DJ Marshmello's Rise To Fame And Changing Persona </a>
+            <ul>
+                <li>date: Sep 25, 2018</li>
+                <li>location: Miami, FL</li>
+                <li>likelihood rating, on a scale of 1-10: 8</li>
+                <li>type of event: interview</li>
+                <li>collaborators: n/a</li>
+                <li>where the event occured: Miami</li>
+            </ul> 
+        </div>
         </li>
         <br/>
-        <li><img src="/newsitem2img.jpeg" alt="staypuft marshmallow man">
-            <a href="/newsitem2.html">DJ Marshmallow's Rise To Fame And Changing Persona </a>
-            <h5>date: Sep 25, 2018</h5>
+        <li id="bloop">
+            <img src="/newsitem3img.jpeg" alt="newsitem3 image">
+            <div class="container2">
+
+            <a href="/newsitem3.html" class="gmr">Forbes 30 Under 30 Cover Story: How Marshmello Became A $44 Million DJ</a>
+            <ul>
+                <li>date: Sep 30, 2018</li>
+                <li>location: Honolulu, Hawaii</li>
+                <li>likelihood rating, on a scale of 1-10: 8</li>
+                <li>type of event: interview</li>
+                <li>collaborators: n/a</li>
+                <li>where the event occured: Honolulu</li>
+            </ul>
+        </div>
         </li>
         <br/>
-        <li>
-            <img src="/newsitem3img.jpeg" alt="staypuft marshmallow man">
-            <a href="/newsitem3.html">Forbes 30 Under 30 Cover Story: How Marshmello Became A $44 Million DJ</a>
-            <h5>date: Sep 30, 2018</h5>
-        </li>
-        <br/>
-        <li>
-            <img src="/staypuft.jpeg" alt="staypuft marshmallow man">
-            <a href="/newsitem4.html">Local family wins Halloween with Ghostbusters costumes</a>
-            <h5>date: HALLOWEEN, 1999</h5>
+
+        <li id="bloop">
+
+                <div id="container3">
+                        <img src="/staypuft.jpeg" alt="staypuft marshmallow man" id="image">
+                        <div id="overlay">
+                          <div id="text">FAKE NEWS!</div>
+                        </div>
+                </div>
+                      
+
+
+            <div class="container2">
+            <a href="/newsitem4.html" class="gmr">Local family wins Halloween with Ghostbusters costumes</a>
+            <ul>
+                <li>date: HALLOWEEN, 1999</li>
+                <li>location: New York, NY</li>
+                <li id="unlikely">likelihood rating, on a scale of 1-10: 1</li>
+                <li>type of event: interview</li>
+                <li>collaborators: n/a</li>
+                <li>where the event occured:  In the movies! </li>
+            </ul>
+            </div>
         </li>
 
     </ul>
     <!-- We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
-
-Recent events that might be connected to artist.
-Make sure you include the likelihood rating for each event, on a scale of 1-10.
-Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets. -->
+    Recent events that might be connected to artist.
+    Make sure you include the likelihood rating for each event, on a scale of 1-10.
+    Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets. -->
     
 
 
-        <!-- if needed: link to artist's youtube page -->
-    <!-- <div>
-            
-            <a href="http://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ&amp;ved=2ahUKEwiw_7ifstneAhVBulMKHUtnBagQ9zAwOnoECAkQCQ"><div><g-img class="Rlm17c"><img id="dimg_99" src="/youtubeicon.png" class="rISBZc M4dUYb" height="32" width="32" alt="youtube icon" data-atf="1"></g-img></div>Marshmallow's YouTube channel</a>
-    
-    </div> -->
-    <footer>TEST
-
-
-
+        
+    <footer class="social">
+            <p>Find Marshmello online:</p>
+            <a href="https://twitter.com/marshmellomusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/marshmellomusic/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/marshmellomusic/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://soundcloud.com/marshmellomusic" class="fa fa-soundcloud"></a>
     </footer>
+
 </body>
 </html>
